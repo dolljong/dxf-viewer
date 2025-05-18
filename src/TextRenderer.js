@@ -383,7 +383,7 @@ class Font {
         if (i1 === 0) {
             return 0
         }
-        const i2 = this.data.charToGlyphIndex(c1)
+        const i2 = this.data.charToGlyphIndex(c2)
         if (i2 === 0) {
             return 0
         }
